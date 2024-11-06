@@ -4,7 +4,15 @@ const word = 'javascript';
 
 
 // Dichiara la funzione qui.
+/**
+ * @param {string} 
+ * @return {array} 
+ */
 
+function vocali(parola) {
+    const array = parola.split('aeiou');
+}
+console.log(vocali());
 
 // Invoca la funzione qui e stampa il risultato in console
 
