@@ -18,7 +18,7 @@ const saluto = (nome) => {
 
     if (ora <= 13) {
         result += 'Buongiorno'
-    } else if (ora < 17) {
+    } else if (ora <= 17) {
         result += 'Buon pomeriggio'
     } else {
         result += 'Buonasera'
