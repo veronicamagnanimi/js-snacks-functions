@@ -6,6 +6,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 // Dichiara la funzione qui.
 
 
+
 // Invoca la funzione qui e stampa il risultato in console
 
 
