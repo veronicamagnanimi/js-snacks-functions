@@ -9,25 +9,21 @@ const word = 'javascript';
  * @return {array} 
  */
 
-function vocali(stringa) {
-    const listaVocali = ['a', 'e', 'i', 'o', 'u'];
-    let conteggio = [];
-    let variabile;
-    let array = stringa.split("");
 
-    for(let i = 0; i < array.length; i++) {
-        variabile = array[i];
-
-        if(listaVocali.includes(variabile)) {
-            conteggio.push(variabile);
-        }
-    }
-    return conteggio;
-}
 
 // Invoca la funzione qui e stampa il risultato in console
+function returnVocal (word) {
+    const arrayVocal = ["a", "e", "i", "o", "u"];
+    let count = 0;
+    for(let i = 0; i < word.length; i++) {
+       const curItem = word[i];
+        if(arrayVocal.includes(curItem.toLowerCase())) {
+            count++;
+        }
+    }
+    return count;
+}
 
-let result = conteggio(word);
-console.log(result);
+console.log(returnVocal(word));
 
 //Risultato atteso se si passa 'javascript': 3 (a, a, i)
